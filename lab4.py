@@ -1,11 +1,13 @@
 #!/python3/bin/python3
-def rectangle(length,breadth):
-area=length*breadth
-permiter=2*(length+breadth)
-return(area)
-
+def rectangle_123( length, breadth):
+    area=length*breadth
+    print(area)
+    permiter=2*(length+breadth)
+    print(permiter)
+    return(area)
+    
 print("enter length")
-l=input()
+l=int(input())
 print("enter breadth")
-b=input()
-rectangle(l,b)
+b=int(input())
+rectangle_123(l,b)
