@@ -1,5 +1,5 @@
 #!/python3/bin/python3
-def rectangle(length,breadth)
+def rectangle(length,breadth):
 area=length*breadth
 permiter=2*(length+breadth)
 return(area)
