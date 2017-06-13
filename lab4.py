@@ -6,8 +6,14 @@ def rectangle_123( length, breadth):
     print(permiter)
     return(area)
     
+
+def sample():
+    print("hello")
+    
+
 print("enter length")
 l=int(input())
 print("enter breadth")
 b=int(input())
 rectangle_123(l,b)
+sample()
