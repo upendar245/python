@@ -6,7 +6,7 @@ pipeline {
         sh '''#!/bin/bash
 cd /git
 git pull rebase origin
-cp /git/* /var/www/html
+sudo cp /git/* /var/www/html
 '''
       }
     }
