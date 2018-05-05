@@ -7,7 +7,7 @@ pipeline {
 cd /git
 git pull rebase origin
 sudo cp /git/* /var/www/html
-sudo chown -R apache:apache /vat/www/html/*
+sudo chown -R apache:apache /var/www/html/*
 '''
       }
     }
