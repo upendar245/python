@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh '''#!/bin/bash
 cd /git
-git pull  origin
+git pull  
 sudo cp /git/* /var/www/html
 sudo cd /var/www/html
 sudo ls  > index.html
