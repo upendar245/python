@@ -8,7 +8,7 @@ cd /git
 git pull rebase origin
 sudo cp /git/* /var/www/html
 sudo cd /var/www/html
-sudo ls -ltr > index.html
+sudo ls  > index.html
 sudo chown -R apache:apache /var/www/html/*
 '''
       }
